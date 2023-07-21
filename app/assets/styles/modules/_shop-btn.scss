@@ -1,0 +1,55 @@
+.shop-btn {
+    &,
+    &:link,
+    &:visited {
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 1rem 0;
+      display: inline-block;
+      transition: all 0.2s;
+      position: relative;
+      overflow: hidden;
+      font-weight: 600;
+      font-size: 1.7vh;
+      line-height: 1;
+      background-color: transparent;
+      color: $black;
+      border: none;
+      //letter-spacing: 1.1rem;
+      letter-spacing: 1.2vh;
+      cursor: pointer;
+    }
+
+    &__icon {
+        img {
+            display: inline-block;
+            width: 4.35vh;
+            height: auto;
+        }
+    } 
+
+    /* &__icon {
+        svg {
+            fill: $black;
+            transition: all 0.2s;
+        }
+    } */
+
+    &:hover {
+        //color: $dark_gray;
+        opacity: .5;
+  
+        /* .shop-btn__icon {
+            svg {
+                fill: $dark_gray; 
+            }
+        } */
+    }
+    
+    &:active,
+    &:focus {
+        outline: none;
+        color: $dark_gray;
+    }
+  
+}
