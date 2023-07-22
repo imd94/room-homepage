@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://imd94.github.io/room-homepage)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-room-homepage-using-desktopfirst-approach-and-css-grid-CdEVJjAN5J)
+- Live Site URL: [Live Site](https://imd94.github.io/room-homepage)
 
 ## My process
 
@@ -56,13 +56,13 @@ At first glance, this layout looks like something easy to create, but when you d
 
 ### Useful resources
 
-- [Example resource 1](https://www.udemy.com/course/50-projects-50-days) - From this course (Day 35 - Image Carousel), I learned to create a simple image carousel. It contains a lot of other small JavaScript projects as well that are a great source of learning.
-- [Example resource 2](https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event) - This helped me to understand, how keydown event works in javascript.
-- [Example resource 3](https://css-tricks.com/snippets/css/css-triangle) - This helped me to learn, how to create arrows using css border.
-- [Example resource 4](https://codepen.io/Kezz/pen/mJOJQY) - This code pen from Kezz Bracey, helped me a lot to learn some css button animations.
+- [Resource 1](https://www.udemy.com/course/50-projects-50-days) - From this course (Day 35 - Image Carousel), I learned to create a simple image carousel. It contains a lot of other small JavaScript projects as well that are a great source of learning.
+- [Resource 2](https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event) - This helped me to understand, how keydown event works in javascript.
+- [Resource 3](https://css-tricks.com/snippets/css/css-triangle) - This helped me to learn, how to create arrows using css border.
+- [Resource 4](https://codepen.io/Kezz/pen/mJOJQY) - This code pen from Kezz Bracey, helped me a lot to learn some css button animations.
 
 ## Author
 
-- Website - [Ivan Mirković](https://imdesign94.com)
+- Website - [imdesign94](https://imdesign94.com)
 - Frontend Mentor - [@imd94](https://www.frontendmentor.io/profile/imd94)
 - Twitter - [I do not have a twitter account yet](https://www.twitter.com)
