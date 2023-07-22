@@ -9,7 +9,6 @@
     &__image-wrapper {
         width: calc(100% - 17.2vh);
         transform: translateX(17.2vh);
-        //min-height: 26.6rem;
         min-height: 28.7vh;
 
         @include sm {

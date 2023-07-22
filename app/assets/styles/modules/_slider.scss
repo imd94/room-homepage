@@ -11,7 +11,7 @@
         background-color: transparent;
     }
 
-    @include xxs {
+    @include xs {
         grid-template-rows: 36rem minmax(min-content, 1fr);
     }
 
@@ -42,7 +42,6 @@
         overflow: hidden;
 
         display: grid;
-        //grid-template-columns: minmax(650px, 1fr) minmax(min-content, 600px);
         grid-template-columns: 59% 41%;
         grid-template-rows: min-content; 
 
@@ -51,7 +50,7 @@
             grid-template-rows: 53.4rem min-content; 
         }
 
-        @include xxs {
+        @include xs {
             grid-template-rows: 36rem min-content; 
         }
 
@@ -87,8 +86,11 @@
                 grid-column: 1 / -1;
             }
 
-            @include xxs {
+            @include xs {
                 height: 36rem;
+            }
+
+            @include xxs {
                 background-repeat: no-repeat;
                 background-position: center center;
                 background-size: cover;
@@ -124,13 +126,9 @@
             align-self: center;
             z-index: 1; 
 
-            //max-width: 46rem;
             max-width: 27.5vw;
             margin: 0 auto;
             margin-top: -5vh;
-            //padding: 3rem;
-            //max-height: 53.4rem;
-            //transform: translateY(-12%);
 
             @include lg {
                 max-width: 30vw;
@@ -150,11 +148,9 @@
         }
 
         &__heading {
-            //font-size: 4.5rem;
             font-size: 3.2vw;
             font-weight: 700;
             line-height: 1;
-            //letter-spacing: -.15rem;
             letter-spacing: -.15vh;
 
             @include md {
@@ -164,6 +160,7 @@
             @include sm {
                 font-size: 3.5rem;
                 letter-spacing: -.15rem;
+                margin-top: 0;
             } 
         }
 
@@ -180,8 +177,6 @@
 
     .arrow-btn {
         display: block;
-        //width: 8rem;
-        //height: 8rem;
         width: 8.6vh;
         height: 8.6vh;
         background-color: $black;
@@ -206,7 +201,6 @@
         border: solid $white;
         border-width: 0 .1rem .1rem 0;
         display: inline-block;
-        //padding: .8rem;
         padding: 1vh;
         position: absolute;
         top: 50%; 
@@ -219,9 +213,7 @@
         &--right {
             right: 50%;
             transform: rotate(-45deg) translateX(50%);
-            //margin-top: -.5rem;
-            margin-top: -.5vh;
-            //margin-right: .4rem;
+            margin-top: -.4vh;
             margin-right: .4vh;
 
             @include sm {
@@ -233,9 +225,7 @@
         &--left {
             right: 50%;
             transform: rotate(135deg) translateX(-50%);
-            //margin-top: -.5rem;
-            margin-top: -.5vh;
-            //margin-right: -.4rem;
+            margin-top: -.4vh;
             margin-right: -.4vh;
 
             @include sm {
@@ -277,11 +267,10 @@
         } 
 
         .arrow-controlls {
-            grid-column: 1 / span 1;
-            justify-self: end;
+            grid-column: 2 / span 1;
+            justify-self: start;
             display: flex;
             margin-top: -8rem;
-            transform: translateX(17.2vh);
             background-color: $black;
 
             @include sm {

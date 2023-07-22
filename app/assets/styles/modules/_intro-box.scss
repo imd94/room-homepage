@@ -8,7 +8,6 @@
 
     &__image-wrapper {
         width: calc(100% + 17.2vh);
-        //min-height: 26.6rem;
         min-height: 28.7vh;
 
         @include sm {
@@ -25,7 +24,7 @@
     }
 
     &__header {
-        padding: 4.3vw 3.8vw 0;
+        padding: 4.3vw 3.8vw 2vw;
         transform: translateX(17.2vh);
 
         @include sm {
@@ -35,11 +34,9 @@
     }
 
     &__heading {
-        //font-size: 1.7rem;
         font-size: 1.7vh;
         font-weight: 700;
         text-transform: uppercase;
-        //letter-spacing: .65rem;
         letter-spacing: .7vh;
         margin: 0 0 1.5vh;
 
